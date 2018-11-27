@@ -1,0 +1,46 @@
+$ ls
+
+$ git init
+
+$ git remote add origin "https://github.com/harishchinna/merge.git"$ git status
+
+$ git status
+
+$ git commit -am "first file"
+
+$ git status
+
+$ git push origin master
+
+$ git mv first.txt firstnew.txt
+
+$ git commit -am "adds some text"
+
+$ git branch master2
+
+$ git checkout master2
+
+$ git commit -am "new file in another branch"
+
+$ git diff master master2
+
+$ git checkout master
+
+$ git status
+
+$ git commit -am "modifies text"
+
+$ git commit -am "adds ktm duke"
+
+$git log -1
+
+$ git diff master master2
+
+$ git checkout master2
+
+$ git merge master
+
+$ git diff master master2
+
+$git log -1
+
